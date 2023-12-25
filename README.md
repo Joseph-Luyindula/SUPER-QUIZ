@@ -1,2 +1,2 @@
 # SUPER-QUIZ
-version 1 du projet.
+Mini programme de quiz.
