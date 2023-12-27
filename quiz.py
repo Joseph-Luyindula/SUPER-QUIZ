@@ -8,15 +8,39 @@ score  = 0 # initialisation du score à 0
 
 def quiz(question,q1,q2,q3,q4,reponse):
 	global score
-	print(question)
-	print("a :",q1)
-	print("b :",q2)
-	print("c :",q3)
-	print("d :",q4)
-	print("Quel est votre choix .")
-	don = input(">>>")
+	print(f"""
+{question}:
+	    
+	    a : {q1}
+	    
+	    b : {q2}
+	    
+	    c : {q3}
+	    
+	    d : {q4}
+	    
+	  QUEL EST VOTRE CHOIX ? 
+	  """)
+	don = input(">>> ").lower()
 	if don == reponse:
 		score += 1
+	elif not don in  ("a","b","c","d"):
+		print("""ERREUR : Cette question a été annulée, veuillez s'il-vous-plaît mettre une valeur comprise entre a et d (a,b,c,d) lors des prochaines question .
+		
+		N.B : Oui=y et Non=n""")
+		poursuivre = ""
+		while poursuivre != ("y","n"):
+			poursuivre = input("voulez-vous continuer le quiz ? [ y/n ] ")
+			if poursuivre.lower() == "y":
+				break 
+			elif poursuivre.lower() == "n":
+				print()
+				print("Merci et à la prochaine 😁")
+				exit()
+			else:
+				print()
+				print("désolé mais écrivez soit y soit n s'il-vous-plaît .")
+			
 
 	
 def run_quiz():
