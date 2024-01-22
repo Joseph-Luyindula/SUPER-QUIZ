@@ -1,0 +1,35 @@
+[33mcommit 4cf4f92ac034c8858a63e18ebd13f492ec6e2c02[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Joseph Luyindula <josephluyindula00@gmail.com>
+Date:   Sat Dec 30 21:56:25 2023 +0100
+
+    Writing the first readme
+
+[33mcommit 0ee26614eef07ca648ba1a76fd0e4a284dd64789[m
+Author: Joseph Luyindula <josephluyindula00@gmail.com>
+Date:   Wed Dec 27 01:27:50 2023 +0100
+
+    ajout des premiere gestion d'erreur
+
+[33mcommit 2f392faadf81238ff58285675af9a84caaf78796[m
+Author: Joseph-Luyindula <153144188+Joseph-Luyindula@users.noreply.github.com>
+Date:   Tue Dec 26 01:02:42 2023 +0100
+
+    Données du quiz
+
+[33mcommit 419c5b415720567f352e78774d892f5cd75dc9d3[m
+Author: Joseph-Luyindula <153144188+Joseph-Luyindula@users.noreply.github.com>
+Date:   Tue Dec 26 01:00:19 2023 +0100
+
+    Première version
+
+[33mcommit 2590c45dafb4e65a9a448176f539e20bb73a8446[m
+Author: Joseph-Luyindula <153144188+Joseph-Luyindula@users.noreply.github.com>
+Date:   Mon Dec 25 23:49:16 2023 +0100
+
+    Update README.md
+
+[33mcommit 61c95711e7412580cb77eac6b0045976df44c04c[m
+Author: Joseph-Luyindula <153144188+Joseph-Luyindula@users.noreply.github.com>
+Date:   Mon Dec 25 02:00:36 2023 +0100
+
+    Initial commit
